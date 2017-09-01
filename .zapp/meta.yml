@@ -1,0 +1,15 @@
+specs:
+  /app:
+    keys:
+      - name
+      - title
+  /:
+    keys:
+      - app
+  /app/name: {}
+  /app/title: {}
+generators:
+  /readme/id: {}
+  /readme:
+    keys:
+      - id
